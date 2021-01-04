@@ -1,0 +1,43 @@
+p{
+	font-size:17px;
+}
+
+
+#navbar {
+	margin: auto;
+	border-radius: 7px;
+	width: 20em;
+	height: 3em;
+	background-color: #ede7dd;
+	display: flex;
+	justify-content: space-between;
+	align-self:center;    
+	
+}
+#navbar div{
+		display: flex;
+		align-items: center;
+		border-radius: 7px;
+	}
+
+
+#navbar div a{
+	padding: .75em;
+	font-size: 1.3em;
+	text-decoration: none;
+	color: black;
+	}
+
+
+
+
+
+
+
+#navbar div:hover{
+		background-color: gold;
+	}
+
+#navbar div:active{
+		background-color: blue;
+	}
