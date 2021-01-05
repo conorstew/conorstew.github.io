@@ -48,7 +48,7 @@
 	top: 70px;
 	background-color: #eaebed;
 	z-index: -2;
-
+	overflow: hidden;
 
 }
 
@@ -83,14 +83,17 @@
 } 
 
 @media (max-width:1189px){
+	#intro{
+		padding-bottom: 30px;
+	}
 	#intro img{
 	position: absolute;
-	height: 50%;
+	height: 378.5px;
 	right: -100px;
 	z-index: -1;
 	}
 	#text{
-		padding-top: 100px;
+		padding-top: 0px;
 		padding-bottom: 0px;
 		margin-bottom: 0px;
 	}
@@ -98,9 +101,9 @@
 @media (max-width: 745px){
 	#intro img{
 	position: absolute;
-	height: 50%;
-	top: -25px;
-	right: -200px;
+	height: 378.5px;
+	top: -15px;
+	right: -170px;
 	z-index: -1;
 	}
 	#text{
