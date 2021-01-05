@@ -83,13 +83,31 @@
 } 
 
 @media (max-width:1189px){
-	
 	#intro img{
 	position: absolute;
-	right: -250px;
+	height: 50%;
+	right: -100px;
 	z-index: -1;
-
-
+	}
+	#text{
+		padding-top: 100px;
+		padding-bottom: 0px;
+		margin-bottom: 0px;
+	}
+}
+@media (max-width: 745px){
+	#intro img{
+	position: absolute;
+	height: 50%;
+	top: -25px;
+	right: -200px;
+	z-index: -1;
+	}
+	#text{
+		padding-top: 100px;
+		padding-bottom: 0px;
+		margin-bottom: 0px;
+		width: 60%;
 	}
 }
 
