@@ -3,6 +3,7 @@
 }
 
 #navbar {
+	position: fixed;
 	width: 100%;
 	--navbarHeight: 30px;
 	height: var(--navbarHeight);
